@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <TravelCard title={data.title} />
+      <TravelCard data={data} />
     </div>
   );
 }

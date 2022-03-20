@@ -1,0 +1,17 @@
+.location-image {
+  width: 125px;
+  height: 168px;
+  border-radius: 8px;
+}
+
+.travel-card-container {
+  display: flex;
+  column-gap: 10px;
+  margin: 20px;
+}
+
+.journey-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
