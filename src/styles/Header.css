@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #f55a5a;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 3px;
+}
