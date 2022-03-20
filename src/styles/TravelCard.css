@@ -10,6 +10,16 @@
   margin: 20px;
   align-items: center;
 }
+.location-container {
+  display: flex;
+  flex-direction: row;
+}
+.location-icon {
+  width: 10px;
+  margin-right: 2px;
+  align-self: center;
+}
+
 .location {
   font-size: 13px;
 }
