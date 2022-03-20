@@ -4,10 +4,14 @@ import Header from "./Header";
 import TravelCard from "./TravelCard";
 
 function App() {
+  const journey = data.map((location) => {
+    return <TravelCard data={location} />;
+  });
+
   return (
     <div className="App">
       <Header />
-      <TravelCard data={data} />
+      {journey}
     </div>
   );
 }
